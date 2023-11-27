@@ -6,10 +6,9 @@ Description
 The LangChain Simple QA App is designed to showcase how you can integrate OpenAI's powerful language models into a user-friendly web application. 
 Users can input questions, and the app, powered by OpenAI's API, returns answers in real-time.
 Features
-
-    Interactive question input
-    Real-time AI-powered responses
-    Easy-to-use web interface
+    - Interactive question input
+    - Real-time AI-powered responses
+    - Easy-to-use web interface
 
 ## Installation
 
@@ -32,7 +31,6 @@ venv\Scripts\activate     # On Windows
 
 Install Dependencies:
 
-bash
 
 pip install -r requirements.txt
 
