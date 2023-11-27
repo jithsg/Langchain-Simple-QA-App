@@ -14,46 +14,42 @@ Features
 
 To run this application locally, you need to have Python installed on your system. Follow these steps to set up the app:
 
-    Clone the Repository:
+## Clone the Repository:
 
-    bash
-
+```
 git clone [URL to your repository]
 cd [repository name]
-
-Set Up a Virtual Environment (Optional but recommended):
+```
+## Set Up a Virtual Environment (Optional but recommended):
 
 ```
 python -m venv venv
 source venv/bin/activate  # On Unix or MacOS
 venv\Scripts\activate     # On Windows
 ```
-Install Dependencies:
-
-
+## Install Dependencies:
+```
 pip install -r requirements.txt
+```
+## Environment Variables:
 
-Environment Variables:
+- Create a .env file in the root directory.
+- Add your OpenAI API key to the .env file:
 
-    Create a .env file in the root directory.
-    Add your OpenAI API key to the .env file:
+`OPENAI_API_KEY=yourapikey`
 
-    plaintext
+Note: Never commit your .env file to version control.
 
-        OPENAI_API_KEY=yourapikey
-
-        Note: Never commit your .env file to version control.
-
-Usage
+## Usage
 
 To run the Streamlit app:
 
-bash
 
-streamlit run app.py
+`streamlit run app.py`
 
-Navigate to http://localhost:8501 in your web browser to interact with the application.
-Contributing
+Navigate to `http://localhost:8501` in your web browser to interact with the application.
+
+## Contributing
 
 Contributions, issues, and feature requests are welcome. Feel free to check issues page if you want to contribute.
 License
