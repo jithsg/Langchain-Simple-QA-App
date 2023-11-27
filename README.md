@@ -11,7 +11,7 @@ Features
     Real-time AI-powered responses
     Easy-to-use web interface
 
-##Installation
+## Installation
 
 To run this application locally, you need to have Python installed on your system. Follow these steps to set up the app:
 
