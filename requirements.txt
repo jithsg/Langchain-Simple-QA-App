@@ -1,0 +1,8 @@
+langchain
+notebook
+ipynb
+huggingface_hub
+langchain
+openai
+streamlit
+python-dotenv
