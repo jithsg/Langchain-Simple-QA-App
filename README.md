@@ -23,12 +23,11 @@ cd [repository name]
 
 Set Up a Virtual Environment (Optional but recommended):
 
-bash
-
+```
 python -m venv venv
 source venv/bin/activate  # On Unix or MacOS
 venv\Scripts\activate     # On Windows
-
+```
 Install Dependencies:
 
 
