@@ -52,4 +52,3 @@ Navigate to `http://localhost:8501` in your web browser to interact with the app
 ## Contributing
 
 Contributions, issues, and feature requests are welcome. Feel free to check issues page if you want to contribute.
-License
